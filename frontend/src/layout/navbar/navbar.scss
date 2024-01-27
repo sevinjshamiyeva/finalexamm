@@ -1,0 +1,39 @@
+nav{
+    font-size: 13px;
+    border: 1px solid 
+    #333333;
+    width: 100%;
+    height: 50px;
+    background-color: RGB(30, 30, 39);
+    color: 
+    #B5AEC4;
+    .container{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       height: 49px;
+        
+        .right{
+            font-size: 13px;
+            display: flex;
+        align-items: center;
+        justify-content: content;
+            gap: 15px;
+            display: flex;
+            .english{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+                width: 100px;
+                height: 50px;
+                border: 1px solid #333333;;;
+            }
+        }
+    }
+}
+@media only screen and (max-width:990px ){
+    nav{
+        display: none;
+    }
+}

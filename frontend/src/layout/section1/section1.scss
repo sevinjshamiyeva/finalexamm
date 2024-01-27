@@ -1,0 +1,36 @@
+.section1{
+    width: 100%;
+    border: 1px solid black;
+    height: 600px;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg.webp");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    .container{
+        height: 600px;
+        display: flex;
+        align-items: center;
+        .text{
+           #spring{
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+           }
+           #arrivals{
+            font-size: 72px;
+            width: 700px;
+            font-weight: 400;
+            color: #282828;
+            font-family: 'Poppins', sans-serif;
+           }
+           .btn{
+            width: 150px;
+            height: 40px;
+            background-color:  #FE4C50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+
+           }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.section2{
+    width: 100%;
+    border: 1px solid black;
+    height: 400px;
+    .container{
+        height: 400px;
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        .women{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+            height: 280px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg.webp");
+        #women{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            background-color: white;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        }
+       .accessories{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        width: 360px;
+            height: 280px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg.webp");
+            #accessories{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+       }
+       .men{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+            height: 280px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg.webp");
+            #men{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                font-size: 22px;
+                font-weight: 600;
+            }
+       }
+    }
+}
