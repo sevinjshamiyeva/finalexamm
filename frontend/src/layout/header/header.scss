@@ -48,12 +48,12 @@ header{
                 }
             }
             .icons{
-                display: flex;
-                flex-wrap: wrap;
+                gap: 15px;
+              display: flex;
                 justify-content: center;
                 align-items: center;
                 .icon{
-                    margin-right: 30px;}
+                    }
                     
             }
         }
@@ -64,12 +64,30 @@ header{
 @media only screen and (max-width:990px ){
     ul li .link{
         display: none;
-
     }
+    .rightHeader .icons{
+        display: flex;
+    }
+    .rightHeader {
+        width: auto;
+      }
+
 }
 @media only screen and (min-width:990px ){
     .menu{
         display: none;
-        
     }
+}
+@media only screen and (max-width:768px ){
+    .rightHeader .icons{
+        display: flex;
+        font-size: 10px;
+    }
+    header .container #colo{
+        font-size: 15px;
+    }
+    header .container #shop{
+        font-size: 15px;
+    }
+    
 }

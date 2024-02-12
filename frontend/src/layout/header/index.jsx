@@ -28,7 +28,7 @@ function Header() {
     <FontAwesomeIcon className="icon" icon={faUserPlus} />
     <Badge className="icon badge" count={5}>
     
-    <Avatar  shape="circle" size="large">
+    <Avatar  shape="circle" size={'large'}>
     <Link to="/basket">
       
     <FontAwesomeIcon icon={faCartShopping} style={{color:"black"}} />
