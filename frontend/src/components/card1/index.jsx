@@ -4,19 +4,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 
-function Card1() {
+function Card1({elem}) {
   return (
     <>
     <div className="card">
         <div className="cardImg">
 
-<img className='img' src="https://preview.colorlib.com/theme/coloshop/images/product_1.png.webp" alt="" />
+<img className='img' src={elem.img} alt="" />
 
         </div>
         <div className="cardDetail">
         <FontAwesomeIcon className='icon' icon={faHeart} />
-           <h4>fdfs</h4>
-           <h3>jkhgfds</h3>
+           <h4>{elem.name}</h4>
+           <h3>${elem.price}</h3>
         </div>
         <div className="btn">
             add to cart

@@ -1,0 +1,49 @@
+.section8{
+    width: 100%;
+    border: 1px solid black;
+    height: 450px;
+    .container{
+        height: 450px;
+        border: 1px solid black;
+        h3{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .line1{
+            
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .line{
+                width: 60px;
+                height: 4px;
+                background-color: #FE4C50
+            }
+    }
+    .images{
+        margin-top: 30px;
+        display: flex;
+        gap:10px;
+        .img1{
+            width: 370px;
+            height: 270px;
+             
+             background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg.webp");  
+            }
+            .img2{
+                width: 370px;
+            height: 270px;
+             
+             background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_2.jpg.webp");  
+            }
+            .img3{
+                width: 370px;
+            height: 270px;
+             
+             background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg.webp");  
+            }
+    }
+}}
