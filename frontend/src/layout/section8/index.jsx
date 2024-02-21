@@ -12,10 +12,30 @@ function Section8() {
            </div>
            <div className="images">
            <div className="img1">
+            <div className="img">
+              <div className='title'>Here are the trends I see coming this fall</div>
+              <div id='date'>BY ADMIN | DEC 01, 2017
+</div>
+<ul>
+  <li>Read More</li>
+</ul>
+            </div>
             </div>
             <div className="img2">
+              <div className="img">
+                <div className="title">
+                Here are the trends I see coming this fall
+
+                </div>
+                <div className="date">
+                BY ADMIN | DEC 01, 2017
+                  
+                </div>
+
+              </div>
             </div>
             <div className="img3">
+              <div className="img"></div>
             </div>
            </div>
 

@@ -32,18 +32,79 @@
             height: 270px;
              
              background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg.webp");  
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             
+             .img{
+                width: 250px;
+                height: 200px;
+                background-color: #FFFFFF;
+                opacity: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .title{
+                    width: 230px;
+                    font-size: 20px;
+                    
+                }
+                #date{
+                    font-size: 10px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                    color: #FE7C7F}
+                    ;
+                }
+
+                
+            }
             }
             .img2{
+                display: flex;
+            align-items: center;
+            justify-content: center;
                 width: 370px;
             height: 270px;
-             
+            position: relative;
              background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_2.jpg.webp");  
+             .img{
+                position: absolute;
+                width: 250px;
+                background-color: #FFFFFF
+                ;
+                height: 200px;
+                opacity: 0;
+            }
             }
             .img3{
+                display: flex;
+            align-items: center;
+            justify-content: center;
                 width: 370px;
             height: 270px;
              
              background-image: url("https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg.webp");  
+             .img{
+                width: 250px;
+                height: 200px;
+                opacity: 0;
+                background-color: #FFFFFF;
+            }
             }
     }
 }}
+.section8 .container .images .img1:hover .img{
+    opacity: 0.7
+    }
+    
+.section8 .container .images .img2:hover .img{
+opacity: 0.7
+}
+.section8 .container .images .img3:hover .img{
+    opacity: 0.7
+    }
+    
