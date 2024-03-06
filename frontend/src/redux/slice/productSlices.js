@@ -40,6 +40,6 @@ export const productSlice = createSlice({
 })
 
 
-export const { } = productSlice.actions
+export const { a} = productSlice.actions
 
 export default productSlice.reducer
