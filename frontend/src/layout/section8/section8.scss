@@ -26,6 +26,8 @@
     .images{
         margin-top: 30px;
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap:10px;
         .img1{
             width: 370px;
@@ -48,6 +50,7 @@
                 .title{
                     width: 230px;
                     font-size: 20px;
+                    text-align: center;
                     
                 }
                 #date{
@@ -78,6 +81,25 @@
                 ;
                 height: 200px;
                 opacity: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .title{
+                    width: 230px;
+                    font-size: 20px;
+                    text-align: center;
+                    
+                }
+                #date{
+                    font-size: 10px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                    color: #FE7C7F}
+                    ;
+                }
             }
             }
             .img3{
@@ -93,6 +115,25 @@
                 height: 200px;
                 opacity: 0;
                 background-color: #FFFFFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .title{
+                    width: 230px;
+                    font-size: 20px;
+                    text-align: center;
+                    
+                }
+                #date{
+                    font-size: 10px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                    color: #FE7C7F}
+                    ;
+                }
             }
             }
     }
