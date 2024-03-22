@@ -1,20 +1,25 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  value: 0,
+  wishlist:[],
 }
 
-export const counterSlice = createSlice({
+export const wishlistSlice = createSlice({
   name: 'wishlist',
   initialState,
   reducers: {
-    incrementByAmount: (state, action) => {
-      state.value += action.payload
+    addWishlist: (state, action) => {
+      const cardFind=state.wishlist.find((elem)=>elem._id==action.payload._id)
+      console.log(cardFind)
+      if(cardFind){
+        state.wishlist=state.wishlist.filter((elem=>elem._id!==action.payload._id))
+      }else{state.wishlist.push(action.payload)}
+
     },
   },
 })
 
 // Action creators are generated for each case reducer function
-export const {a  } = counterSlice.actions
+export const {addWishlist  } = wishlistSlice.actions
 
-export default counterSlice.reducer
+export default wishlistSlice.reducer
